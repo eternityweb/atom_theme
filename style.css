@@ -757,3 +757,7 @@ ul.x-tab-strip-top li:first-child{
 .contentblocks-field-gallery-upload {
     font-size: 0 !important;
 }
+
+.redactor-modal-box{
+    z-index: 9999;
+}
