@@ -648,7 +648,7 @@ ul.x-tab-strip-top li:first-child{
 }
 
 .contentblocks-field-image-title::before {
-    content: 'Alt Text';
+    content: 'Alt Text: Describe this image';
     display: block;
     font-family: inherit;
     color: #555;
@@ -662,7 +662,7 @@ ul.x-tab-strip-top li:first-child{
 
 .contentblocks-field-image-title::after {
     content: 'Describes the appearance or function of this image';
-    display: block;
+    display: none;
     color: #999;
     width:100%;
 }
