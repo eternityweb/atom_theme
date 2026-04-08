@@ -761,3 +761,7 @@ ul.x-tab-strip-top li:first-child{
 .redactor-modal-box{
     z-index: 9999;
 }
+
+.wtHider{
+    max-width: 100%;
+}
