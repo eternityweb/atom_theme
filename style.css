@@ -765,3 +765,22 @@ ul.x-tab-strip-top li:first-child{
 .wtHider{
     max-width: 100%;
 }
+
+.contentblocks-options input[type=checkbox],
+.contentblocks-options input[type=radio] {
+    &:focus {
+      box-shadow: none;
+    }
+}
+
+.cb-hidden:before {
+    border: 1px solid #c0392b;
+    position: absolute;
+    inset: 0;
+    z-index: 110;
+    content: '';
+    background: rgba(255, 0, 0, .2);
+    pointer-events: none;
+    user-select: none;
+    border-radius: .5rem;
+}
