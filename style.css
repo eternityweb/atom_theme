@@ -548,6 +548,7 @@ ul.x-tab-strip-top li:first-child{
 
 .contentblocks-add-content-here{
     bottom:-20px;
+    z-index: 200;
 }
 
 .contentblocks-add-content-here a{
