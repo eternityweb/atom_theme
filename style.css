@@ -502,7 +502,7 @@ ul.x-tab-strip-top li:first-child{
 
 /* Layout */
 .contentblocks-layout {
-
+    position:relative;
 }
 
 /* Buttons */
