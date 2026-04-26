@@ -801,11 +801,11 @@ ul.x-tab-strip-top li:first-child{
 
 /* Eye toggle button */
 .cb-hide-toggle {
-    display: inline-flex;
+    display: inline-flex !important;
     align-items: center;
     justify-content: center;
     width: 28px;
-    height: 28px;
+    height: 23px;
     color: #aaa;
     font-size: 14px;
     transition: color 0.15s;
