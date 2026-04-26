@@ -785,3 +785,55 @@ ul.x-tab-strip-top li:first-child{
     user-select: none;
     border-radius: .5rem;
 }
+
+.contentblocks-region-settings{
+    display:none;
+}
+
+/* -----------------------------------------------
+   CB Hidden Indicator
+----------------------------------------------- */
+
+/* Hide the exposed checkbox wrapper entirely — button handles toggling */
+.contentblocks-exposed-fields-as-field-wrapper:has(input[data-name="hiddenCB"]) {
+    display: none;
+}
+
+/* Eye toggle button */
+.cb-hide-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    color: #aaa;
+    font-size: 14px;
+    transition: color 0.15s;
+}
+
+.cb-hide-toggle:hover {
+    color: #555;
+}
+
+/* When hidden — button turns red */
+.cb-hide-toggle.cb-is-hidden {
+    color: #c0392b;
+}
+
+.cb-hide-toggle.cb-is-hidden:hover {
+    color: #e74c3c;
+}
+
+/* Field wrapper hidden state */
+.contentblocks-field-outer.cb-hidden > .contentblocks-field-wrap {
+    outline: 2px solid #c0392b;
+    outline-offset: -2px;
+    opacity: 0.5;
+}
+
+/* Layout wrapper hidden state */
+.contentblocks-layout.cb-hidden > .contentblocks-region-container {
+    outline: 2px solid #c0392b;
+    outline-offset: -2px;
+    opacity: 0.5;
+}
