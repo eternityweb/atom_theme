@@ -16,10 +16,14 @@ body {
 
 /* Dashboard */
 .dashboard-block .title {
-    background :#fff;
-    padding: 1rem;
-    font-size: 18px;
-    border-bottom: 1px solid #f2f2f2;
+    background: linear-gradient(315deg, #105278 0%, #447996 100%);
+    border-radius: 0;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+    padding: 13px;
+    zoom: 1;
+    color: #fff;
 }
 
 .dashboard-block .body {
@@ -275,18 +279,7 @@ ul.x-tab-strip-top li:first-child{
 
 #modx-container {background: #f1f1f1;}
 /*#modx-navbar{background-image:none; background: linear-gradient(200deg, #6f7883 0%, #3a454e 100%);}*/
-#modx-navbar{background-image:none; background: linear-gradient(200deg, #2a2a2a 0%, #0a537c 100%);}
-
-
-.dashboard-block .title {
-    background: #e5e9ee;
-    border-radius: 0;
-    font-size: 12px;
-    font-weight: bold;
-    margin: 0;
-    padding: 15px;
-    zoom: 1;
-}
+#modx-navbar{background-image:none; background: linear-gradient(315deg, #105278 0%, #447996 100%);}
 
 .tree-pseudoroot-node.x-tree-node-el .modx-tree-node-tool-ct{
     line-height: 32px;
