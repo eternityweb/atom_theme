@@ -830,3 +830,12 @@ ul.x-tab-strip-top li:first-child{
     outline-offset: -2px;
     opacity: 0.5;
 }
+
+.ace_gutter-cell.ace_error {
+    background-image: none !important;
+    color: inherit !important;
+}
+
+.ace_error-line {
+    background: none !important;
+}
