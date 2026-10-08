@@ -28,6 +28,7 @@ body {
 
 .dashboard-block .body {
     padding: 1rem;
+    max-height: 100% !important;
 }
 
 #modx-leftbar .x-tab-panel-bwrap{
